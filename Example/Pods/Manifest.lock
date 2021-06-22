@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PPBaseUI (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - PPBaseUI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  PPBaseUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PPBaseUI: dc9870377d77b0efb06ef44aa8ab8c948fd01c94
+
+PODFILE CHECKSUM: 9be9b67556a43678828e39941b44ccd9d57d6503
+
+COCOAPODS: 1.10.1

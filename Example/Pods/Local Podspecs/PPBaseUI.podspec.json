@@ -1,0 +1,22 @@
+{
+  "name": "PPBaseUI",
+  "version": "0.1.0",
+  "summary": "A short description of PPBaseUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LiuPenguin/PPBaseUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LiuPenguin": "liupenghui@58.com"
+  },
+  "source": {
+    "git": "https://github.com/LiuPenguin/PPBaseUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PPBaseUI/Classes/**/*"
+}
