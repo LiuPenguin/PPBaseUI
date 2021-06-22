@@ -1,8 +1,8 @@
 {
   "name": "PPBaseUI",
-  "version": "0.1.0",
-  "summary": "A short description of PPBaseUI.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.1.1",
+  "summary": "PPBaseUI.",
+  "description": "测试版本测试版本测试版本测试版本测试版本测试版本测试版本测试版本测试版本",
   "homepage": "https://github.com/LiuPenguin/PPBaseUI",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/LiuPenguin/PPBaseUI.git",
-    "tag": "0.1.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PPBaseUI/Classes/**/*"
+  "source_files": "PPBaseUI/Classes/PPViews/**/*.{h,m}",
+  "resource_bundles": {
+    "PPBaseUI": [
+      "PPBaseUI/Assets/headerImg/*.png"
+    ]
+  }
 }

@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - PPBaseUI (0.1.0)
+  - PPBaseUI (1.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  PPBaseUI: dc9870377d77b0efb06ef44aa8ab8c948fd01c94
+  PPBaseUI: ab692d2371a3083369a1317d751bb052051bb265
 
 PODFILE CHECKSUM: 9be9b67556a43678828e39941b44ccd9d57d6503
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PPBaseUI'
-  s.version          = '0.1.0'
+  s.version          = '1.1.1'
   s.summary          = ' PPBaseUI.'
 
 # This description is used to generate tags and improve search results.
@@ -29,12 +29,12 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'PPBaseUI/Classes/**/*'
+ 
+  s.source_files = 'PPBaseUI/Classes/PPViews/**/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'PPBaseUI' => ['PPBaseUI/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'PPBaseUI' => ['PPBaseUI/Assets/headerImg/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

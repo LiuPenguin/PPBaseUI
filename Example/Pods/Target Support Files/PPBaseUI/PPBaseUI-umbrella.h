@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PHView.h"
 
 FOUNDATION_EXPORT double PPBaseUIVersionNumber;
 FOUNDATION_EXPORT const unsigned char PPBaseUIVersionString[];

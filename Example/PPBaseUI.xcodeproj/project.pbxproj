@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3113BBEFC1E831A305B8A7DB /* Pods_PPBaseUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BCD17A57AF07FF721B62F5 /* Pods_PPBaseUI_Example.framework */; };
+		37A2671E2681B6780001F922 /* PPBaseUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37A2671D2681B6780001F922 /* PPBaseUI.bundle */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,9 +41,10 @@
 		03BCD17A57AF07FF721B62F5 /* Pods_PPBaseUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPBaseUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F0352E359236F5918FC69F /* Pods-PPBaseUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPBaseUI_Example.release.xcconfig"; path = "Target Support Files/Pods-PPBaseUI_Example/Pods-PPBaseUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		091061BCC34867DCD09F6D6C /* Pods-PPBaseUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPBaseUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PPBaseUI_Tests/Pods-PPBaseUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1B92FBDEFA357E65575D407E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1B92FBDEFA357E65575D407E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		30C07CDFDDC10FA421CDECD6 /* Pods-PPBaseUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPBaseUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-PPBaseUI_Example/Pods-PPBaseUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3CA72AE391D3CD12166280B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		37A2671D2681B6780001F922 /* PPBaseUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PPBaseUI.bundle; path = "../../../../Library/Developer/Xcode/DerivedData/PPBaseUI-dhriujkwnoruzugwjswjeyowvhwp/Build/Products/Debug-iphonesimulator/PPBaseUI/PPBaseUI.bundle"; sourceTree = "<group>"; };
+		3CA72AE391D3CD12166280B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PPBaseUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPBaseUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +66,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A6AA14076A8CC161937E231 /* Pods_PPBaseUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPBaseUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A73D6F1A29768B7213F5FAA /* PPBaseUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PPBaseUI.podspec; path = ../PPBaseUI.podspec; sourceTree = "<group>"; };
+		7A73D6F1A29768B7213F5FAA /* PPBaseUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PPBaseUI.podspec; path = ../PPBaseUI.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1EA5949DB1FFFFCC8A077DE /* Pods-PPBaseUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPBaseUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-PPBaseUI_Tests/Pods-PPBaseUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +105,6 @@
 				091061BCC34867DCD09F6D6C /* Pods-PPBaseUI_Tests.debug.xcconfig */,
 				D1EA5949DB1FFFFCC8A077DE /* Pods-PPBaseUI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +152,7 @@
 				6003F5A6195388D20070C39A /* PENGUINViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				37A2671D2681B6780001F922 /* PPBaseUI.bundle */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for PPBaseUI";
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +283,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				37A2671E2681B6780001F922 /* PPBaseUI.bundle in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
